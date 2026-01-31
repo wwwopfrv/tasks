@@ -1,0 +1,39 @@
+body {
+    position: relative; /* ensure a positioning context */
+    min-height: 100vh;  /* full page height */
+}
+
+.banner{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+.top-left{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top-right{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.bottom-left{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
